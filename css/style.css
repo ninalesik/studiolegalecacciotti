@@ -280,7 +280,7 @@ img {
 
 @media (max-width: 576px) {
   .flex-375 {
-    max-width: 50%;
+    max-width: 80%;
   }
   .pb-250 {
     padding-bottom: 0px;
@@ -298,7 +298,7 @@ img {
 
 @media (max-width: 374px) {
   .flex-375 {
-    max-width: 60%;
+    max-width: 80%;
   }
   .header {
     display: none;
@@ -382,7 +382,7 @@ img {
 }
 
 .hero__bottom {
-  font-family: "Gilroy-Medium";
+  font-family: "Gilroy-Regular";
   font-weight: 400;
   font-size: 0.8em;
   padding-top: 40px;
@@ -572,6 +572,9 @@ img {
   .rates__title span {
     margin-left: 70px;
   }
+  .rates__descr-wrap {
+    text-align: justify;
+  }
   .rates__wrap {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -596,12 +599,18 @@ img {
   .rates__card {
     padding: 40px 30px;
   }
+  .rates__descr-wrap {
+    text-align: justify;
+  }
 }
 
 @media (max-width: 576px) {
   .rates__wrap {
     max-width: 100%;
     grid-template-columns: 1fr;
+  }
+  .rates__descr-wrap {
+    text-align: justify;
   }
   .rates__card {
     padding: 40px 20px;
@@ -618,11 +627,18 @@ img {
   .rates__wrap {
     max-width: 100%;
   }
+  .rates__descr-wrap {
+    text-align: justify;
+  }
 }
 
 @media (max-width: 380px) {
   .rates__title span {
     margin-left: 26px;
+  }
+  .rates__descr-wrap {
+    text-align: justify;
+    margin-right: auto;
   }
 }
 
@@ -775,11 +791,20 @@ img {
   .about__wrap {
     padding-left: 20px;
   }
+  .about__title {
+    align-items: center;
+  }
 }
 
 @media (max-width: 1024px) {
   .about__title span {
     margin-right: 70px;
+  }
+  .about__descr {
+    text-align: justify;
+  }
+  .about__title {
+    align-items: center;
   }
 }
 
@@ -788,10 +813,13 @@ img {
     flex-direction: column;
   }
   .about__descr {
-    align-self: flex-start;
+    text-align: justify;
   }
   .about__img {
     flex: 0 0 43%;
+  }
+  .about__title {
+    align-items: center;
   }
 }
 
@@ -799,8 +827,14 @@ img {
   .about__img {
     flex: 0 0 53%;
   }
+  .about__descr {
+    text-align: justify;
+  }
   .about__title span {
     margin-right: 43px;
+  }
+  .about__title {
+    align-items: center;
   }
 }
 
@@ -808,11 +842,23 @@ img {
   .about__img {
     flex: 0 0 63%;
   }
+  .about__descr {
+    text-align: justify;
+  }
+  .about__title {
+    align-items: center;
+  }
 }
 
 @media (max-width: 380px) {
   .about__title span {
     margin-right: 29px;
+  }
+  .about__title {
+    align-items: center;
+  }
+  .about__descr {
+    text-align: justify;
   }
 }
 
