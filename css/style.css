@@ -574,6 +574,7 @@ img {
   }
   .rates__descr-wrap {
     text-align: justify;
+    margin: 0 auto;
   }
   .rates__wrap {
     grid-template-columns: repeat(2, 1fr);
@@ -601,6 +602,7 @@ img {
   }
   .rates__descr-wrap {
     text-align: justify;
+    margin: 0 auto;
   }
 }
 
@@ -611,6 +613,7 @@ img {
   }
   .rates__descr-wrap {
     text-align: justify;
+    margin: 0 auto;
   }
   .rates__card {
     padding: 40px 20px;
@@ -629,6 +632,7 @@ img {
   }
   .rates__descr-wrap {
     text-align: justify;
+    margin: 0 auto;
   }
 }
 
@@ -638,7 +642,7 @@ img {
   }
   .rates__descr-wrap {
     text-align: justify;
-    margin-right: auto;
+    margin: 0 auto;
   }
 }
 
@@ -764,7 +768,6 @@ img {
   position: relative;
   overflow: hidden;
   margin-top: 7%;
-  /* background-color: #e0ae77; */
 }
 
 .about__title {
@@ -784,7 +787,6 @@ img {
   padding: 20px;
   font-family: "Gilroy-Medium";
   align-items: normal;
-  justify-content: center;
 }
 
 @media (max-width: 1240px) {
@@ -802,6 +804,7 @@ img {
   }
   .about__descr {
     text-align: justify;
+    margin: 0 auto;
   }
   .about__title {
     align-items: center;
@@ -814,6 +817,7 @@ img {
   }
   .about__descr {
     text-align: justify;
+    margin: 0 auto;
   }
   .about__img {
     flex: 0 0 43%;
@@ -829,6 +833,7 @@ img {
   }
   .about__descr {
     text-align: justify;
+    margin: 0 auto;
   }
   .about__title span {
     margin-right: 43px;
@@ -844,6 +849,7 @@ img {
   }
   .about__descr {
     text-align: justify;
+    margin: 0 auto;
   }
   .about__title {
     align-items: center;
@@ -859,6 +865,7 @@ img {
   }
   .about__descr {
     text-align: justify;
+    margin: 0 auto;
   }
 }
 
@@ -906,4 +913,37 @@ svg {
   color: lightgray;
   font-size: 10px;
   text-align: end;
+}
+
+@media (max-width: 576px) {
+  .social_icon {
+    width: 10%;
+    height: 10%;
+  }
+  .logo_footer {
+    width: 20%;
+    height: 20%;
+  }
+}
+
+@media (max-width: 450px) {
+  .social_icon {
+    width: 10%;
+    height: 10%;
+  }
+  .logo_footer {
+    width: 20%;
+    height: 20%;
+  }
+}
+
+@media (max-width: 380px) {
+  .social_icon {
+    width: 10%;
+    height: 10%;
+  }
+  .logo_footer {
+    width: 20%;
+    height: 20%;
+  }
 }
