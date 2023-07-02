@@ -50,11 +50,11 @@ body {
 
 h1,
 h2 {
-  margin: 0;
+  margin: 0px;
 }
 
 p {
-  margin: 0;
+  margin: 5px;
 }
 
 ul {
@@ -72,6 +72,11 @@ img {
   height: auto;
 }
 
+.container_hero__wrap {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
 .big-title {
   margin: 0;
   width: 100%;
@@ -87,7 +92,6 @@ img {
 .big-title span:first-child {
   display: inline-block;
   max-width: calc(100% - 560px);
-  overflow: hidden;
 }
 
 .big-title span:last-child {
@@ -104,6 +108,7 @@ img {
 
 @media (max-width: 1280px) {
   .big-title {
+    font-family: "Gilroy-Medium", sans-serif;
     font-size: 130px;
   }
   .big-title span:first-child {
@@ -117,6 +122,7 @@ img {
 @media (max-width: 1024px) {
   .big-title {
     font-size: 95px;
+    font-family: "Gilroy-Medium", sans-serif;
   }
   .section-title {
     font-size: 28px;
@@ -126,6 +132,7 @@ img {
 @media (max-width: 768px) {
   .big-title {
     font-size: 90px;
+    font-family: "Gilroy-Medium", sans-serif;
   }
   .big-title span:first-child {
     max-width: 100%;
@@ -143,6 +150,7 @@ img {
 @media (max-width: 720px) {
   .big-title {
     font-size: 80px;
+    font-family: "Gilroy-Medium", sans-serif;
   }
   .section-title {
     font-size: 18px;
@@ -152,6 +160,7 @@ img {
 @media (max-width: 576px) {
   .big-title {
     font-size: 60px;
+    font-family: "Gilroy-Medium", sans-serif;
   }
   .big-title span:last-child {
     margin-left: 40px;
@@ -166,6 +175,7 @@ img {
 @media (max-width: 470px) {
   .big-title {
     font-size: 46px;
+    font-family: "Gilroy-Medium", sans-serif;
   }
   .section-title {
     font-size: 18px;
@@ -175,6 +185,7 @@ img {
 @media (max-width: 380px) {
   .big-title {
     font-size: 44px;
+    font-family: "Gilroy-Medium", sans-serif;
   }
   .big-title span:last-child {
     margin-left: 20px;
@@ -372,11 +383,13 @@ img {
 
 .hero__bottom {
   font-family: "Gilroy-Medium";
-  font-weight: 600;
-  font-size: 2em;
+  font-weight: 400;
+  font-size: 0.8em;
   padding-top: 40px;
+  margin-left: 3%;
   padding-bottom: 40px;
-  opacity: 0.2;
+  opacity: 0.4;
+  row-gap: 2%;
 }
 
 @media (max-width: 1440px) {
@@ -490,6 +503,7 @@ img {
 
 .rates__descr {
   flex-wrap: wrap;
+  justify-self: normal;
   font-size: larger;
   color: #3a444f;
   padding: 20px;
@@ -753,7 +767,7 @@ img {
   color: #3a444f;
   padding: 20px;
   font-family: "Gilroy-Medium";
-  align-items: center;
+  align-items: normal;
   justify-content: center;
 }
 

@@ -70,8 +70,8 @@ function animation() {
     );
     gsap.to(".pier__img-right", {
       duration: 3,
-      scale: 1.1,
-      x: -70,
+      scale: 1,
+      x: -55,
     });
     gsap.to(".hero__bottom", {
       duration: 4,
