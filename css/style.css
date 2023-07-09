@@ -403,7 +403,6 @@ img {
 }
 
 .hero__bottom {
-  /* height: 100px; */
   font-family: "Gilroy-Regular";
   font-weight: 400;
   font-size: 0.8em;
@@ -833,6 +832,7 @@ svg {
   color: lightgray;
   font-size: 10px;
   text-align: end;
+  margin-right: 25px;
 }
 
 @media (max-width: 576px) {
